@@ -36,15 +36,5 @@ header{
     padding: 0px 40px 0px 40px
 }
 
-.search{
-    display: flex;
-    gap: 20px;
-}
 
-input{
-    width: 40vw;
-    height: 25px;
-    border-radius: 25px;
-    border: none;
 
-}
