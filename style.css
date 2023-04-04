@@ -35,3 +35,7 @@ header{
     flex-direction: column;
     padding: 0px 40px 0px 40px
 }
+
+.search{
+    display: flex;
+}
