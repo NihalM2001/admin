@@ -38,4 +38,14 @@ header{
 
 .search{
     display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+input{
+    width: 40vw;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+
 }
