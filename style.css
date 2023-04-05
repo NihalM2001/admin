@@ -91,7 +91,7 @@ main{
 .cards{
     display: grid;
     background-color: rgb(241, 205, 205);
-    grid-template-columns: repeat(autofill,minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
 }
 
 .announcements{
