@@ -21,10 +21,6 @@ header{
     background-color: rgb(241, 241, 192);
 }
 
-main{
-    background-color: white;
-}
-
 footer{
     grid-area: 3/1/4/3;
     background-color: black;
@@ -89,17 +85,15 @@ main{
 
 .cards{
     display: grid;
-    background-color: rgb(241, 205, 205);
     grid-template-columns: repeat(3 ,minmax(100,1fr));
     grid-template-rows: 0.5fr 5fr 5fr;
     padding: 10px;
-    gap: 10px;
+    gap: 20px;
 }
 
 .announcements{
     display: grid;
     grid-template-rows: .5fr 5fr .5fr 5fr;
-    background-color: rgb(191, 247, 191);
     gap: 10px;
     padding: 10px;
 }
@@ -112,14 +106,20 @@ main{
 
 .cards>:nth-child(1){
     grid-area: 1/1/2/4;
+    background-color: rgb(212, 212, 212);
+    box-shadow: 0px 0px;
 }
 
 .cards>*{
-    border: 1px solid black;
+    box-shadow: 3px 3px 4px 0px rgba(104, 101, 101, 0.5);
     border-radius: 5px;
     padding: 1px;
+    background-color: rgb(240, 193, 76);
 }
 
+main{
+    background-color: rgb(212, 212, 212);
+}
 
 
 
