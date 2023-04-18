@@ -97,9 +97,11 @@ main{
 }
 
 .announcements{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: .5fr 5fr .5fr 5fr;
     background-color: rgb(191, 247, 191);
+    gap: 10px;
+    padding: 10px;
 }
 
 .announcements>div{
