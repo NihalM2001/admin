@@ -34,6 +34,7 @@ header{
 
 .search{
     display: flex;
+    padding-top: 8px;
 }
 
 .left{
@@ -45,7 +46,15 @@ header{
 }
 
 .searchIcon{
-    align-self: flex-end;               /*fix this thing here*/
+    width: 100px;
+    align-self: flex-end;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
 }
 
 .profile{
