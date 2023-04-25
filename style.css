@@ -21,6 +21,21 @@ header{
     background-color: rgb(241, 241, 192);
 }
 
+.dashboardWrapper{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    padding: 10px;
+}
+
+.dashboardWrapper>:nth-child(1){
+    margin-bottom: 20px;
+}
+
+.dashboardWrapper>:nth-child(7){
+    margin-bottom: 20px;
+}
+
 footer{
     grid-area: 3/1/4/3;
     background-color: black;
@@ -77,6 +92,7 @@ input{
     gap: 15px;
     justify-content: space-evenly;
 }
+
 button{
     width:125px;
     height:50px;
@@ -87,6 +103,7 @@ button{
     border-radius: 25px;
     background-color: rgb(137, 137, 245);
 }
+
 main{
     display: grid;
     grid-template-columns: 70% 30%;
@@ -124,6 +141,7 @@ main{
 hr{
     height: 1px;
 }
+
 .trendingContent{
     display: flex;
     flex-direction: column;
