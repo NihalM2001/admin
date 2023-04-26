@@ -6,8 +6,8 @@
 }
 
 img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .wrapper{
@@ -46,6 +46,10 @@ header{
     grid-template-columns: 20% 80%;
     align-content: center;
     gap: 30px;
+}
+
+.dashboardLogo{
+    scale: 1.5 ;
 }
 
 .text{
@@ -93,6 +97,11 @@ input{
 
 .notificationIcon{
     text-align: right;
+}
+
+.notificationIcon>img{
+    width: 20px;
+    height: 20px;
 }
 
 .logo{
