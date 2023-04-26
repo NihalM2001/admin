@@ -46,6 +46,7 @@ header{
     display: grid;
     grid-template-columns: 20% 80%;
     align-content: center;
+    gap: 30px;
 }
 
 .text{
@@ -141,7 +142,7 @@ main{
     grid-template-columns: repeat(3 ,minmax(100px,1fr));
     grid-template-rows: 0.5fr 5fr 5fr;
     padding: 10px;
-    gap: 20px;
+    gap: 30px;
 }
 
 .announcements{
@@ -151,6 +152,9 @@ main{
     padding: 10px;
 }
 
+.announcementHeading{
+    padding-bottom: 38px;
+}
 .announcementContent>div{
     display: flex;
     align-items: center;
