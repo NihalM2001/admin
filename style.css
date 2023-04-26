@@ -142,12 +142,11 @@ main{
     padding: 10px;
 }
 
-/*.announcements>div{
-    border: 1px;    
-    border-color: black;
-    border-style: solid;
+.announcementContent>div{
+    display: flex;
+    align-items: center;
 }
-*/
+
 
 .announcementContent{
     display: flex;
