@@ -12,8 +12,8 @@ img{
 
 .wrapper{
     display: grid;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: 15% 80% 5%;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 2fr 15fr 1fr;
 }
 
 header{
@@ -45,6 +45,13 @@ header{
 .dashElements{
     display: grid;
     grid-template-columns: 20% 80%;
+    align-content: center;
+}
+
+.text{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 footer{
