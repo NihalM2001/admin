@@ -13,7 +13,7 @@ img{
 .wrapper{
     display: grid;
     grid-template-columns: 15% 85%;
-    grid-template-rows: 2fr 15fr 1fr;
+    grid-template-rows: 3fr 15fr 1fr;
 }
 
 header{
@@ -75,10 +75,6 @@ header{
     display: flex;
 }
 
-.right{
-    display: flex;
-}
-
 .searchIcon{
     width: 100px;
     align-self: flex-end;
@@ -88,6 +84,19 @@ input{
     height: 50px;
     border-radius: 10px;
     border: none;
+}
+
+.right{
+    display: flex;
+    width: 80%;
+}
+
+.notificationIcon{
+    text-align: right;
+}
+
+.logo{
+    text-align: center;
 }
 
 .profile{
@@ -164,6 +173,11 @@ hr{
     flex-direction: column;
     padding: 20px;
     background-color: white;
+}
+
+.trendingContent>div{
+    display: flex;
+    align-items: center;
 }
 
 .cards>:nth-child(1){
