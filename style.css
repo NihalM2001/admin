@@ -31,7 +31,6 @@ header{
     flex-direction: column;
     height: 70%;
     padding: 20px 10px 10px 30px;
-    margin-top: 20px;
 }
 
 .dashboardWrapper>:nth-child(1){
