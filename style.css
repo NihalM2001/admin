@@ -155,16 +155,31 @@ main{
 
 .cards>div:not(:nth-child(1)){
     display: grid;
-    grid-template-rows: 1fr 3fr .5fr;
+    grid-template-rows: 1fr 3fr .7fr;
 }
 
 .mainHeading, .mainContent{
     background-color: gold;
     display: flex;
+    padding: 20px 0px 0px 30px
+}
+
+.mainHeading{
+    align-items: center;
 }
 
 .mainButtons{
     background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    gap: 10px;
+}
+
+.mainButtons>div{
+    display: flex;
+    width: 3rem;
+    align-items: center;
 }
 
 .announcements{
