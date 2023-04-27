@@ -160,6 +160,7 @@ main{
 
 .mainHeading, .mainContent{
     background-color: gold;
+    display: flex;
 }
 
 .mainButtons{
