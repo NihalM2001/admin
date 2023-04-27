@@ -179,13 +179,20 @@ main{
     display: flex;
     justify-content: flex-end;
     padding-right: 10px;
-    gap: 10px;
 }
 
-.mainButtons>div{
+.mainButtons>*{
     display: flex;
     width: 3rem;
     align-items: center;
+    border: none;
+    background-color: white;
+    justify-content: center;
+    transition: 500ms;
+}
+
+.mainButtons>button:hover{
+    background-color: lightgray;
 }
 
 .announcements{
