@@ -129,6 +129,11 @@ input{
     bottom: 7px;
 }
 
+.name{
+    position: relative;
+    top: 7px;
+}
+
 .profile{
     display: flex;
 }
