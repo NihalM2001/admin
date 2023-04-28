@@ -209,7 +209,9 @@ button>img{
 }
 
 .announcementHeading{
-    padding-bottom: 38px;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
 .announcementContent>div{
     display: flex;
