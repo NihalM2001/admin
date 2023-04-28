@@ -263,11 +263,45 @@ hr{
     padding: 20px;
     background-color: white;
     border-radius: 5px;
+    gap: 10px;
 }
 
 .trendingContent>div{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(2,50%);
+    gap: 5px;
+}
+
+.trendingProfiles>*{
     display: flex;
     align-items: center;
+}
+
+.trendingProfiles>*:not(:nth-child(1)){
+    height: 20px;
+}
+
+.trendingLogo{
+    grid-area: 1/1/3/2;
+}
+
+.trendingLogo>img{
+    width: 60px;
+    height: 60px;
+}
+
+.trendingUser{
+    grid-area: 1/2/2/3;
+    align-self: flex-end;
+}
+
+.trendingLogo{
+    justify-content: center;
+}
+
+.trendingPost{
+    grid-area: 2/2/3/3;
 }
 
 .cards>:nth-child(1){
