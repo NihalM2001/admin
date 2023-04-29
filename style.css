@@ -33,6 +33,7 @@ header{
     flex-direction: column;
     height: 70%;
     padding-top: 20px;
+    color: white;
 }
 
 .dashboardWrapper>:nth-child(1){
@@ -338,11 +339,11 @@ main{
 
 /* Font Section */
 
-.content{
+.mainContent, .trendingContent, .announcementContent{
     font-family: 'Manrope', sans-serif;
 }
 
-.heading{
+.dashboardWrapper, .announcementHeading, .right, .profile, .mainHeading, .cards+div{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
