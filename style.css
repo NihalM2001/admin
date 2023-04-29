@@ -172,6 +172,11 @@ input{
     justify-content: space-evenly;
 }
 
+.buttons>button{
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+}
 .buttons>*:hover{
     background-color: #4689d1;
 }
@@ -343,7 +348,7 @@ main{
     font-family: 'Manrope', sans-serif;
 }
 
-.dashboardWrapper, .announcementHeading, .right, .profile, .mainHeading, .cards+div{
+.dashboardWrapper, .announcementHeading, .right, .profile, .mainHeading, .cards+div, .buttons{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
