@@ -339,11 +339,11 @@ main{
 /* Font Section */
 
 .content{
-    
+    font-family: 'Manrope', sans-serif;
 }
 
 .heading{
-
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 
