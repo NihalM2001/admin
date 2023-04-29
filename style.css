@@ -53,6 +53,7 @@ header{
 
 .dashboardWrapper>div:hover:not(:nth-child(1)){
     background-color: #4689d1;
+    cursor: pointer;
 }
 
 .dashboardLogo{
@@ -136,7 +137,8 @@ input{
 
 .name{
     position: relative;
-    top: 7px;
+    top: 2px;
+    font-size: larger;
 }
 
 .profile{
