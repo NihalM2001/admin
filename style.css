@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Merriweather+Sans&display=swap');
+
 *{
     margin: 0px;
     box-sizing: border-box;
@@ -30,7 +32,7 @@ header{
     display: flex;
     flex-direction: column;
     height: 70%;
-    padding: 20px 10px 10px 30px;
+    padding-top: 20px;
 }
 
 .dashboardWrapper>:nth-child(1){
@@ -48,16 +50,18 @@ header{
     gap: 30px;
 }
 
-/*
 .dashboardWrapper>div:hover:not(:nth-child(1)){
-    background-color: red;
+    background-color: #4689d1;
 }
-*/
 
 .dashboardLogo{
     scale: 1.5 ;
 }
 
+.dashLogo>img{
+    position: relative;
+    left: 20px;
+}
 .text{
     display: flex;
     align-content: center;
@@ -165,6 +169,10 @@ input{
     display: flex;
     gap: 15px;
     justify-content: space-evenly;
+}
+
+.buttons>*:hover{
+    background-color: #4689d1;
 }
 
 button{
@@ -328,6 +336,15 @@ main{
     background-color: rgb(235 235 235);
 }
 
+/* Font Section */
+
+.content{
+    
+}
+
+.heading{
+
+}
 
 
 
