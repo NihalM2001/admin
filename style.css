@@ -166,6 +166,10 @@ input{
     justify-items: center;
 }
 
+.bigName{
+    font-size: xx-large;
+}
+
 .buttons{
     display: flex;
     gap: 15px;
