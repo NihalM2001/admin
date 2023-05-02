@@ -267,6 +267,7 @@ button>img{
 .announcementContent>div{
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 
 
@@ -354,10 +355,13 @@ main{
     font-family: 'Manrope', sans-serif;
 }
 
-.dashboardWrapper, .announcementHeading, .right, .profile, .mainHeading, .cards+div, .buttons{
+.dashboardWrapper, .announcementHeading, .right, .profile, .mainHeading, .cards+div, .buttons, .cards>:nth-child(1){
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+.announcementHeading, .cards>:nth-child(1){
+    font-size: x-large;
+}
 
 
 
