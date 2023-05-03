@@ -143,6 +143,8 @@ input{
 
 .profile{
     display: flex;
+    position: relative;
+    top: -10px;
 }
 
 .nameDetails{
@@ -362,6 +364,7 @@ footer>div{
     height: 50%;
     width: max-content;
 }
+
 /* Font Section */
 
 .mainContent, .trendingContent, .announcementContent{
