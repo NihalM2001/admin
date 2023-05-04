@@ -102,6 +102,7 @@ input{
     border-radius: 10px;
     border: none;
     background-color: rgb(235 235 235);
+    font-size: larger;
 }
 
 .right{
@@ -367,7 +368,7 @@ footer>div{
 
 /* Font Section */
 
-.mainContent, .trendingContent, .announcementContent{
+.mainContent, .trendingContent, .announcementContent, input{
     font-family: 'Manrope', sans-serif;
 }
 
